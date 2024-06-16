@@ -46,7 +46,7 @@ class Prerank_Train_Dataset(Dataset):
 
     request_ts = self.data[idx][2]
     
-    request_ts_struct = time.localtime(request_ts)
+    request_ts_struct = time.localtime(request_ts//1000)
     
     request_ts_wday = request_ts_struct.tm_wday + 1
     request_ts_hour = request_ts_struct.tm_hour + 1
@@ -160,7 +160,7 @@ class Prerank_Train_Data_Dist_Shift_Sampling_Dataset(Dataset):
 
     request_ts = self.data[idx][2]
     
-    request_ts_struct = time.localtime(request_ts)
+    request_ts_struct = time.localtime(request_ts//1000)
     
     request_ts_wday = request_ts_struct.tm_wday + 1
     request_ts_hour = request_ts_struct.tm_hour + 1
@@ -275,7 +275,7 @@ class Prerank_Train_Data_Dist_Shift_All_Dataset(Dataset):
 
     request_ts = self.data[idx][2]
     
-    request_ts_struct = time.localtime(request_ts)
+    request_ts_struct = time.localtime(request_ts//1000)
     
     request_ts_wday = request_ts_struct.tm_wday + 1
     request_ts_hour = request_ts_struct.tm_hour + 1
@@ -379,7 +379,7 @@ class Prerank_Train_Auxiliary_Ranking_Dataset(Dataset):
 
     request_ts = self.data[idx][2]
     
-    request_ts_struct = time.localtime(request_ts)
+    request_ts_struct = time.localtime(request_ts//1000)
     
     request_ts_wday = request_ts_struct.tm_wday + 1
     request_ts_hour = request_ts_struct.tm_hour + 1
@@ -522,7 +522,7 @@ class Prerank_Train_FSLTR_Dataset(Dataset):
 
     request_ts = self.data[idx][2]
     
-    request_ts_struct = time.localtime(request_ts)
+    request_ts_struct = time.localtime(request_ts//1000)
     
     request_ts_wday = request_ts_struct.tm_wday + 1
     request_ts_hour = request_ts_struct.tm_hour + 1
@@ -713,7 +713,7 @@ class Prerank_Train_UBM_Dataset(Dataset):
 
     request_ts = self.data[idx][2]
     
-    request_ts_struct = time.localtime(request_ts)
+    request_ts_struct = time.localtime(request_ts//1000)
     
     request_ts_wday = request_ts_struct.tm_wday + 1
     request_ts_hour = request_ts_struct.tm_hour + 1
@@ -858,7 +858,7 @@ class Prerank_Test_Dataset(Dataset):
     
     request_ts = request_ts_arr[0,2]
     
-    request_ts_struct = time.localtime(request_ts)
+    request_ts_struct = time.localtime(request_ts//1000)
     
     request_ts_wday = request_ts_struct.tm_wday + 1
     request_ts_hour = request_ts_struct.tm_hour + 1
@@ -979,7 +979,7 @@ class Prerank_Test_UBM_Dataset(Dataset):
     
     request_ts = request_ts_arr[0,2]
     
-    request_ts_struct = time.localtime(request_ts)
+    request_ts_struct = time.localtime(request_ts//1000)
     
     request_ts_wday = request_ts_struct.tm_wday + 1
     request_ts_hour = request_ts_struct.tm_hour + 1
