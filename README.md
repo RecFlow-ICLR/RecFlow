@@ -18,7 +18,7 @@ RecFlow can be applied to the following tasks. (1) By recording items from the s
 
 Download manually through the following links:
 
-- link: [USTC Drive](https://rec.ustc.edu.cn/share/08dc0260-2ca1-11ef-af12-012730316169)
+- link: [USTC Drive](https://rec.ustc.edu.cn/share/f8e5adc0-2e57-11ef-bea5-3b4cac9d110e)
 
 ---
 
@@ -108,7 +108,7 @@ Download manually through the following links:
 ---
 
 ### Code
-If you want to run the code in the repository, you need to download the data from [USTC Drive](https://rec.ustc.edu.cn/share/08dc0260-2ca1-11ef-af12-012730316169), and place them in the data folder as above data organization.
+If you want to run the code in the repository, you need to download the data from [USTC Drive](https://rec.ustc.edu.cn/share/f8e5adc0-2e57-11ef-bea5-3b4cac9d110e), and place them in the data folder as above data organization.
 
 #### Retrieval
 
