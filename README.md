@@ -108,7 +108,7 @@ Download manually through the following links:
 ---
 
 ### Code
-If you want to run the code in the repository, you need to download the data from [USTC Drive](https://rec.ustc.edu.cn/share/f8e5adc0-2e57-11ef-bea5-3b4cac9d110e), and place them in the data folder as above data organization.
+If you want to run the code in the repository, you need to download the data from [USTC Drive](https://rec.ustc.edu.cn/share/d30b7c70-7e42-11ef-9f78-e7220e1a445b), and place them in the data folder as above data organization.
 
 #### Retrieval
 
