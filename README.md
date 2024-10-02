@@ -2,6 +2,14 @@
 
 [![LICENSE](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green)](https://github.com/RecFlow-nips24/RecFlow-nips24/blob/main/LICENSE)
 
+### Download the data
+
+Download manually through the following links:
+
+- link: [Drive](https://rec.ustc.edu.cn/share/f8e5adc0-2e57-11ef-bea5-3b4cac9d110e)
+
+---
+
 ### Motivation
 To provide the recommendation systems (RS) research community with an industrial full flow dataset, we propose RecFlow, which includes samples from the exposure space and unexposed items filtered at each stage of Kuaishou's multi-stage RS. Compared with all existing public RS datasets, RecFlow can be leveraged to not only optimize the conventional recommendation tasks but also study the challenges including the interplay of different stages, the data distribution shift, auxiliary ranking tasks, user behavior sequence modeling, etc. It is the first public RS dataset that allows researchers to study the real industrial multi-stage RS.
 
@@ -11,14 +19,6 @@ The following figure illustrates the process of RecFlow's data collection .
 
 ### Usage
 RecFlow can be applied to the following tasks. (1) By recording items from the serving space, RecFlow enables the study of how to alleviate the discrepancy between training and serving for specific stages during both the learning and evaluation processes. (2) RecFlow also records the stage information for different stage samples, facilitating research on joint modeling of multiple stages, such as stage consistency or optimal multi-stage RS. (3) The positive and negative samples from the exposure space are suitable for classical click-through rate prediction or sequential recommendation tasks. (4) RecFlow stores multiple types of positive feedback (e.g., effective view, long view, like, follow, share, comment), supporting research on multi-task recommendation. (5) Information about video duration and playing time for each exposure video allows the study of learning through implicit feedback, such as predicting playing time. (6) RecFlow includes a request identifier feature, which can contribute to studying the re-ranking problem. (7) Timestamps for each sample enable the aggregation of user feedback in chronological order, facilitating the study of user behavior sequence modeling algorithms. (8) RecFlow incorporates context, user, and video features beyond identity features (e.g., user ID and video ID), making it suitable for context-based recommendation. (9) The rich information recorded about RS and user feedback allows the construction of more accurate RS simulators or user models in feed scenarios. (10) Rich stage data may help estimate selection bias more accurately and design better debiasd algorithms. 
-
----
-
-### Download the data
-
-Download manually through the following links:
-
-- link: [USTC Drive](https://rec.ustc.edu.cn/share/f8e5adc0-2e57-11ef-bea5-3b4cac9d110e)
 
 ---
 
@@ -108,7 +108,7 @@ Download manually through the following links:
 ---
 
 ### Code
-If you want to run the code in the repository, you need to download the data from [USTC Drive](https://rec.ustc.edu.cn/share/d30b7c70-7e42-11ef-9f78-e7220e1a445b), and place them in the data folder as above data organization.
+If you want to run the code in the repository, you need to download the data from [Drive](https://rec.ustc.edu.cn/share/883adf20-7e44-11ef-90e2-9beaf2bdc778), and place them in the data folder as above data organization.
 
 #### Retrieval
 
